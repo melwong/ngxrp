@@ -1,7 +1,7 @@
-Nano Gigs
+Nano Gigs on XRP Ledger
 -----------------------------
 
-A gig economy platform that empowers people to request and respond to help by doing little tasks called "nano gigs." Responders are rewarded with your custom tokens (on XRP Ledger) as a token of appreciation. This token can be withdrawn (cash out), if allowed.
+A gig economy platform that empowers people to request and respond to help by doing little tasks called "nano gigs." Responders are rewarded with your custom tokens on XRP Ledger as a token of appreciation. This token can be withdrawn (cash out), if allowed.
 
 It is highly customisable with many awesome features:
 
