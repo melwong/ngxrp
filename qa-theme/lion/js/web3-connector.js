@@ -40,7 +40,7 @@ async function connect() {
 		"Account": my_wallet.address,
 		"LimitAmount": {
 		  "currency": currency_code,
-		  "issuer": "rH12zFQ28qnpvKgY89YzEgbr7gUdSs47cm",
+		  "issuer": "rH12zFQ......cm",
 		  "value": "10000000000" // Large limit, arbitrarily chosen
 		}
 	  }
@@ -81,8 +81,8 @@ async function mintToken() {
 async function withdrawCoins(amount, walletAddress) {
 
 	// Example credentials
-	const wallet = xrpl.Wallet.fromSeed("ssaPwbAQ6mYKe5SjG4pQkNA9CqkXL")
-	console.log(wallet.address) // rMCcNuTcajgw7YTgBy1sys3b89QqjUrMpH
+	const wallet = xrpl.Wallet.fromSeed("ssa....A9CqkXL")
+	console.log(wallet.address) // rMCcNuT.....jUrMpH
 	console.log("Connecting to Testnet...")
 	
 	const client = new xrpl.Client('wss://s.altnet.rippletest.net:51233')
