@@ -11,7 +11,6 @@
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
-    More about this license: http://www.question2answer.org/license.php
 */
 
 async function connect() {
@@ -122,7 +121,7 @@ async function withdrawCoins(amount, walletAddress) {
 	*/
 	
 	// Send token ----------------------------------------------------------------
-	const currency_code = "GIG"
+	const currency_code = "NAN"
 	const issue_quantity = amount
 	const send_token_tx = {
 		"TransactionType": "Payment",
