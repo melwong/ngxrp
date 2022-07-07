@@ -35,7 +35,7 @@ It is highly customisable with many awesome features:
 Watch this video -> https://youtu.be/RRHOjwDUouc
 
 
-## Configuration with XRP Ledger
+## Configuration for XRP Ledger
 
 The main XRP config file is at qa-theme/lion/js/web3-connector.js. Under this file, you'll notice the below.
 
@@ -52,10 +52,9 @@ Since each user is given free tokens during sign up, these free tokens cannot be
 
 During withdrawal, the master wallet will issue new tokens and deliver to the user's wallet. A transaction receipt will be created and verifiable at https://testnet.xrpl.org/ 
 
-
 ----------
 
-This code is based on [Question2Answer][Q2A] and it is also GPL licensed. Instead of reinventing the wheel from scratch, we reused existing robust and production-ready [Question2Answer][Q2A] code and build on top of it to ensure minimum bugs and vulnerabilities.
+In the spirit of not reinventing the wheel, this code is based on [Question2Answer][Q2A] and it is also GPL licensed. Instead of reinventing the wheel from scratch, we reused existing robust and production-ready [Question2Answer][Q2A] code and build on top of it to ensure minimum bugs and vulnerabilities.
 
 
 [Q2A]: http://www.question2answer.org/
