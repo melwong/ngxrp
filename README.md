@@ -51,10 +51,3 @@ During registration, a user is given a wallet address and seed. These are emaile
 Since each user is given free tokens during sign up, these free tokens cannot be cashed out. This means a user can only withdraw any amount above the amount of this complimentary token. For example, if you set the system to issue 1,000 free tokens and Tom currently has 1,500 tokens (after answering some requests for help), he can only withdraw 500 tokens, not 1,500.
 
 During withdrawal, the master wallet will issue new tokens and deliver to the user's wallet. A transaction receipt will be created and verifiable at https://testnet.xrpl.org/ 
-
-----------
-
-In the spirit of not reinventing the wheel, this code is based on [Question2Answer][Q2A] and it is also GPL licensed. Instead of reinventing the wheel from scratch, we reused existing robust and production-ready [Question2Answer][Q2A] code and build on top of it to ensure minimum bugs and vulnerabilities.
-
-
-[Q2A]: http://www.question2answer.org/
